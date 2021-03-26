@@ -1,0 +1,16 @@
+/home/intern/Documents/day_2/tic-tac-toy/bin/Debug/net5.0/tic-tac-toy
+/home/intern/Documents/day_2/tic-tac-toy/bin/Debug/net5.0/tic-tac-toy.deps.json
+/home/intern/Documents/day_2/tic-tac-toy/bin/Debug/net5.0/tic-tac-toy.runtimeconfig.json
+/home/intern/Documents/day_2/tic-tac-toy/bin/Debug/net5.0/tic-tac-toy.runtimeconfig.dev.json
+/home/intern/Documents/day_2/tic-tac-toy/bin/Debug/net5.0/tic-tac-toy.dll
+/home/intern/Documents/day_2/tic-tac-toy/bin/Debug/net5.0/ref/tic-tac-toy.dll
+/home/intern/Documents/day_2/tic-tac-toy/bin/Debug/net5.0/tic-tac-toy.pdb
+/home/intern/Documents/day_2/tic-tac-toy/obj/Debug/net5.0/tic-tac-toy.csprojAssemblyReference.cache
+/home/intern/Documents/day_2/tic-tac-toy/obj/Debug/net5.0/tic-tac-toy.GeneratedMSBuildEditorConfig.editorconfig
+/home/intern/Documents/day_2/tic-tac-toy/obj/Debug/net5.0/tic-tac-toy.AssemblyInfoInputs.cache
+/home/intern/Documents/day_2/tic-tac-toy/obj/Debug/net5.0/tic-tac-toy.AssemblyInfo.cs
+/home/intern/Documents/day_2/tic-tac-toy/obj/Debug/net5.0/tic-tac-toy.csproj.CoreCompileInputs.cache
+/home/intern/Documents/day_2/tic-tac-toy/obj/Debug/net5.0/tic-tac-toy.dll
+/home/intern/Documents/day_2/tic-tac-toy/obj/Debug/net5.0/ref/tic-tac-toy.dll
+/home/intern/Documents/day_2/tic-tac-toy/obj/Debug/net5.0/tic-tac-toy.pdb
+/home/intern/Documents/day_2/tic-tac-toy/obj/Debug/net5.0/tic-tac-toy.genruntimeconfig.cache
