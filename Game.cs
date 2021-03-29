@@ -1,12 +1,21 @@
- class Game
+ public class Game
     {     
-        public static string CheckFlag()
+        
+        public char[] arr = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' };
+
+        public int player = 1;
+
+        public int choice;
+
+        public int flag = 0;
+
+        public string CheckFlag()
         {
-            if (Program.flag == 1)
+            if (flag == 1)
 
             {
 
-                return "Player {0} has won" + (Program.player % 2) + 1;
+                return "Player {0} has won" + (player % 2) + 1;
 
             }
 
@@ -18,19 +27,19 @@
 
             }
         }
-        public static string GetChoice()
+        public string GetChoice()
         {
-            if (Program.arr[Program.choice] != 'X' && Program.arr[Program.choice] != 'O')
+            if (arr[choice] != 'X' && arr[choice] != 'O')
 
             {
 
-                if (Program.player % 2 == 0)
+                if (player % 2 == 0)
 
                 {
 
-                    Program.arr[Program.choice] = 'O';
+                    arr[choice] = 'O';
 
-                    Program.player++;
+                    player++;
 
                 }
 
@@ -38,9 +47,9 @@
 
                 {
 
-                    Program.arr[Program.choice] = 'X';
+                    arr[choice] = 'X';
 
-                    Program.player++;
+                    player++;
 
                 }
 
@@ -50,7 +59,7 @@
 
             {
 
-                return "Sorry the row {0} is already marked with {1}" + Program.choice + Program.arr[Program.choice];
+                return "Sorry the row {0} is already marked with {1}" + choice + arr[choice];
 
 
 
@@ -58,11 +67,11 @@
             return "";
 
         }
-        public static string ChangeChance()
+        public string ChangeChance()
 
         {
 
-            if (Program.player % 2 == 0)
+            if (player % 2 == 0)
 
             {
 
@@ -79,14 +88,14 @@
             }
 
         }
-        public static int CheckWin()
+        public int CheckWin()
         {
 
             #region Horzontal Winning Condtion
 
 
 
-            if (Program.arr[1] == Program.arr[2] && Program.arr[2] == Program.arr[3])
+            if (arr[1] == arr[2] && arr[2] == arr[3])
 
             {
 
@@ -96,7 +105,7 @@
 
 
 
-            else if (Program.arr[4] == Program.arr[5] && Program.arr[5] == Program.arr[6])
+            else if (arr[4] == arr[5] && arr[5] == arr[6])
 
             {
 
@@ -106,7 +115,7 @@
 
 
 
-            else if (Program.arr[6] == Program.arr[7] && Program.arr[7] == Program.arr[8])
+            else if (arr[6] == arr[7] && arr[7] == arr[8])
 
             {
 
@@ -122,7 +131,7 @@
 
 
 
-            else if (Program.arr[1] == Program.arr[4] && Program.arr[4] == Program.arr[7])
+            else if (arr[1] == arr[4] && arr[4] == arr[7])
 
             {
 
@@ -132,7 +141,7 @@
 
 
 
-            else if (Program.arr[2] == Program.arr[5] && Program.arr[5] == Program.arr[8])
+            else if (arr[2] == arr[5] && arr[5] == arr[8])
 
             {
 
@@ -142,7 +151,7 @@
 
 
 
-            else if (Program.arr[3] == Program.arr[6] && Program.arr[6] == Program.arr[9])
+            else if (arr[3] == arr[6] && arr[6] == arr[9])
 
             {
 
@@ -155,7 +164,7 @@
 
             #region Diagonal Winning Condition
 
-            else if (Program.arr[1] == Program.arr[5] && Program.arr[5] == Program.arr[9])
+            else if (arr[1] == arr[5] && arr[5] == arr[9])
 
             {
 
@@ -163,7 +172,7 @@
 
             }
 
-            else if (Program.arr[3] == Program.arr[5] && Program.arr[5] == Program.arr[7])
+            else if (arr[3] == arr[5] && arr[5] == arr[7])
 
             {
 
@@ -179,7 +188,7 @@
 
 
 
-            else if (Program.arr[1] != '1' && Program.arr[2] != '2' && Program.arr[3] != '3' && Program.arr[4] != '4' && Program.arr[5] != '5' && Program.arr[6] != '6' && Program.arr[7] != '7' && Program.arr[8] != '8' && Program.arr[9] != '9')
+            else if (arr[1] != '1' && arr[2] != '2' && arr[3] != '3' && arr[4] != '4' && arr[5] != '5' && arr[6] != '6' && arr[7] != '7' && arr[8] != '8' && arr[9] != '9')
 
             {
 

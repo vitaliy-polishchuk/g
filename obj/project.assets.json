@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "/home/intern/.nuget/packages/": {}
+    "/home/vitaliy/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/intern/Documents/day_2/tic-tac-toy/tic-tac-toy.csproj",
+      "projectUniqueName": "/home/vitaliy/Документы/work/tic-tac-toy-interlink/tic-tac-toy.csproj",
       "projectName": "tic-tac-toy",
-      "projectPath": "/home/intern/Documents/day_2/tic-tac-toy/tic-tac-toy.csproj",
-      "packagesPath": "/home/intern/.nuget/packages/",
-      "outputPath": "/home/intern/Documents/day_2/tic-tac-toy/obj/",
+      "projectPath": "/home/vitaliy/Документы/work/tic-tac-toy-interlink/tic-tac-toy.csproj",
+      "packagesPath": "/home/vitaliy/.nuget/packages/",
+      "outputPath": "/home/vitaliy/Документы/work/tic-tac-toy-interlink/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/intern/.nuget/NuGet/NuGet.Config"
+        "/home/vitaliy/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
